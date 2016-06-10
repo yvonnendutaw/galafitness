@@ -1,0 +1,57 @@
+.row.row {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.landing {
+	background-image: url(/img/landing.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	z-index: 0;
+	height: 100%;
+	background-attachment: fixed;
+}
+
+.about {
+	background-color: red;
+	height: 100vh;
+}
+
+.menu {
+	background-color: #222222;
+	width: 100%;
+	position: fixed;
+}
+
+.menu li a {
+	margin: 3%;
+	color: whitesmoke;
+}
+
+.menu li a:hover {
+	color: pink;
+}
+
+.logo {
+	height: 60px;
+}
+
+.text {
+	margin: 10% 10%;
+	color: white;
+}
+
+.button {
+	background-color: transparent;
+	border: solid 2px #fff;
+}
+
+.button:hover {
+	color: white;
+	background-color: #fc002c;
+	border: solid 2px #fc002c;
+}
