@@ -1,24 +1,33 @@
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Quicksand', sans-serif;
+}
+
 .row.row {
 	margin: 0;
 	padding: 0;
 	width: 100%;
 }
 
+
+/*********************landing page***************************/
+
 .landing {
 	background-image: url(/img/landing.jpg);
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	z-index: 0;
-	height: 100%;
+	height: auto;
 	background-attachment: fixed;
-}
-
-.about {
-	background-color: red;
-	height: 100vh;
 }
 
 .menu {
@@ -41,7 +50,9 @@
 }
 
 .text {
-	margin: 10% 10%;
+	margin-left: 20%;
+	margin-bottom: 15%;
+	margin-top: 15%;
 	color: white;
 }
 
@@ -54,4 +65,230 @@
 	color: white;
 	background-color: #fc002c;
 	border: solid 2px #fc002c;
+}
+
+
+/***********************about page*************************/
+
+.about {
+	background-color: yellow;
+	height: auto;
+	color: black;
+}
+
+.borderline {
+	margin-left: 50%;
+	margin-right: 50%;
+	border-left: solid 3px black;
+	height: 8vh;
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+}
+
+.text-box {
+	padding: 3%;
+}
+
+
+/***********************ad page*************************/
+
+.ad {
+	background-image: url(/img/pink.jpg);
+	height: auto;
+	background-attachment: fixed;
+}
+
+.personal {
+	background-color: white;
+	margin-top: 20%;
+	margin-left: 10%;
+}
+
+.group {
+	background-color: yellow;
+	margin-bottom: 20%;
+	margin-right: 10%;
+	margin-top: 4%;
+}
+
+.boxes {
+	z-index: -2;
+}
+
+.ad h3 {
+	text-align: center;
+}
+
+
+/***********************services page*************************/
+
+.services {
+	background-color: #8F0500;
+	background-color: #FA3AB3;
+	height: auto;
+	color: black;
+}
+
+.borderline {
+	margin-left: 50%;
+	margin-right: 50%;
+	border-left: solid 3px black;
+	height: 8vh;
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+}
+
+.text-box {
+	padding: 3%;
+}
+
+
+/***********************boxess*************************/
+
+.boxess {
+	height: 100vh;
+	background-image: url(/img/black.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+
+/***********************boxess*************************/
+
+.contact {
+	background-color: #82E4D5;
+	background-attachment: fixed;
+	height: auto;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+	font-size: 0.875em;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+	font-size: 0.875em;
+}
+
+input::placeholder,
+textarea::placeholder {
+	font-size: 0.875em;
+}
+
+input::-ms-placeholder,
+textarea::-ms-placeholder {
+	font-size: 0.875em;
+}
+
+input:focus::-ms-placeholder,
+textarea:focus::-ms-placeholder {}
+
+
+/* on hover placeholder */
+
+input:hover::-webkit-input-placeholder,
+textarea:hover::-webkit-input-placeholder {
+	font-size: 0.875em;
+}
+
+input:hover::-moz-placeholder,
+textarea:hover::-moz-placeholder {
+	font-size: 0.875em;
+}
+
+input:hover::placeholder,
+textarea:hover::placeholder {
+	font-size: 0.875em;
+}
+
+input:hover::placeholder,
+textarea:hover::placeholder {
+	font-size: 0.875em;
+}
+
+#form {
+	width: 50%;
+	margin: 50px auto 50px auto;
+}
+
+input {
+	font-family: 'Lato', sans-serif;
+	font-size: 0.875em;
+	width: 50%;
+	height: 50px;
+	padding: 0px 15px 0px 15px;
+	background: transparent;
+	outline: none;
+	border: solid 1px #b3aca7;
+	border-bottom: none;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+	background: #b3aca7;
+}
+
+textarea {
+	width: 50%;
+	height: 110px;
+	max-height: 110px;
+	padding: 15px;
+	background: transparent;
+	outline: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 0.875em;
+	border: solid 1px #b3aca7;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+	background: #b3aca7;
+}
+
+#submit {
+	width: 50%;
+	padding: 0;
+	margin: -5px 0px 0px 0px;
+	font-family: 'Lato', sans-serif;
+	font-size: 0.875em;
+	outline: none;
+	cursor: pointer;
+	border: solid 1px #b3aca7;
+	border-top: none;
+}
+
+.contact ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+.contact i {
+	font-size: 30px;
+}
+
+.contact h3 {
+	margin-top: 2%;
+}
+
+
+/***********************services page*************************/
+
+.footer {
+	background-color: #222222;
+	height: auto;
+	color: white;
+}
+
+.footer i {
+	margin-top: 3%;
+	margin-bottom: 3%;
+	font-size: 40px;
 }
