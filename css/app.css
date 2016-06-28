@@ -159,7 +159,7 @@ h6 {
 /***********************boxess*************************/
 
 .contact {
-	background-color: #F21008;
+	background-color: yellow;
 	background-attachment: fixed;
 	height: auto;
 }
@@ -229,6 +229,7 @@ input {
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
+	color: black;
 }
 
 input:hover {
@@ -249,6 +250,7 @@ textarea {
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
+	color: black;
 }
 
 textarea:hover {
@@ -283,20 +285,37 @@ textarea:hover {
 /***********************services page*************************/
 
 .footer {
-	background-color: #550527;
+	background-color: #222222;
 	height: auto;
 	color: white;
 }
 
-.footer i {
-	margin-top: 3%;
-	margin-bottom: 3%;
-	font-size: 40px;
+i {
 	color: red;
 }
 
-.boxx {
+.boxxx {
 	background-color: yellow;
+	height: 200px;
+	margin-top: 17%;
+}
+
+.boxx h3 {
+	margin: 30% 0;
+}
+
+.content {
+	padding: 5%;
+}
+
+.boxe {
+	background-color: dodgerblue;
+	height: 200px;
+	margin-top: 17%;
+}
+
+.boxex {
+	background-color: deeppink;
 	height: 200px;
 	margin-top: 17%;
 }
