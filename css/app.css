@@ -10,9 +10,13 @@ h6 {
 }
 
 .row.row {
-	margin: 0;
-	padding: 0;
+	margin: 0em;
+	padding: 0em;
 	width: 100%;
+}
+
+.column.column {
+	padding: 0em;
 }
 
 
@@ -21,7 +25,7 @@ h6 {
 .landing {
 	background-image: url(/img/landing.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -37,28 +41,30 @@ h6 {
 }
 
 .menu li a {
-	margin: 3%;
-	color: whitesmoke;
+	color: #f70a8a;
+	margin-top: 10%;
+	font-weight: 900;
 }
 
 .menu li a:hover {
 	color: pink;
 }
 
-.logo {
-	height: 60px;
-}
-
 .text {
-	margin-left: 20%;
+	margin-right: 20%;
 	margin-bottom: 15%;
 	margin-top: 15%;
-	color: white;
+	color: deeppink;
+	font-weight: 900;
+	float: right;
+	text-align: right;
 }
 
 .button {
 	background-color: transparent;
 	border: solid 2px #fff;
+	width: 50%;
+	margin-right: 3.5em;
 }
 
 .button:hover {
@@ -71,7 +77,7 @@ h6 {
 /***********************about page*************************/
 
 .about {
-	background-color: yellow;
+	background-color: deeppink;
 	height: auto;
 	color: black;
 }
@@ -94,21 +100,18 @@ h6 {
 
 .ad {
 	background-image: url(/img/pink.jpg);
-	height: auto;
+	height: 100%;
 	background-attachment: fixed;
 }
 
 .personal {
-	background-color: white;
-	margin-top: 20%;
-	margin-left: 10%;
+	background-color: yellow;
+	margin-top: 18%;
 }
 
 .group {
-	background-color: yellow;
-	margin-bottom: 20%;
-	margin-right: 10%;
-	margin-top: 4%;
+	background-color: deeppink;
+	margin-top: 18%;
 }
 
 .boxes {
@@ -123,8 +126,7 @@ h6 {
 /***********************services page*************************/
 
 .services {
-	background-color: #8F0500;
-	background-color: #FA3AB3;
+	background-color: deepskyblue;
 	height: auto;
 	color: black;
 }
@@ -157,7 +159,7 @@ h6 {
 /***********************boxess*************************/
 
 .contact {
-	background-color: #82E4D5;
+	background-color: yellow;
 	background-attachment: fixed;
 	height: auto;
 }
@@ -209,14 +211,14 @@ textarea:hover::placeholder {
 }
 
 #form {
-	width: 50%;
+	width: 70%;
 	margin: 50px auto 50px auto;
 }
 
 input {
 	font-family: 'Lato', sans-serif;
 	font-size: 0.875em;
-	width: 50%;
+	width: 100%;
 	height: 50px;
 	padding: 0px 15px 0px 15px;
 	background: transparent;
@@ -227,6 +229,7 @@ input {
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
+	color: black;
 }
 
 input:hover {
@@ -234,7 +237,7 @@ input:hover {
 }
 
 textarea {
-	width: 50%;
+	width: 100%;
 	height: 110px;
 	max-height: 110px;
 	padding: 15px;
@@ -247,6 +250,7 @@ textarea {
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
+	color: black;
 }
 
 textarea:hover {
@@ -254,15 +258,14 @@ textarea:hover {
 }
 
 #submit {
-	width: 50%;
+	width: 100%;
 	padding: 0;
 	margin: -5px 0px 0px 0px;
 	font-family: 'Lato', sans-serif;
 	font-size: 0.875em;
 	outline: none;
 	cursor: pointer;
-	border: solid 1px #b3aca7;
-	border-top: none;
+	border: solid 2px #b3aca7;
 }
 
 .contact ul li {
@@ -287,8 +290,32 @@ textarea:hover {
 	color: white;
 }
 
-.footer i {
-	margin-top: 3%;
-	margin-bottom: 3%;
-	font-size: 40px;
+i {
+	color: red;
+}
+
+.boxxx {
+	background-color: yellow;
+	height: 200px;
+	margin-top: 17%;
+}
+
+.boxx h3 {
+	margin: 30% 0;
+}
+
+.content {
+	padding: 5%;
+}
+
+.boxe {
+	background-color: dodgerblue;
+	height: 200px;
+	margin-top: 17%;
+}
+
+.boxex {
+	background-color: deeppink;
+	height: 200px;
+	margin-top: 17%;
 }
