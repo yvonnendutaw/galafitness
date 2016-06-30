@@ -35,13 +35,13 @@ h6 {
 }
 
 .menu {
-	background-color: #222222;
+	background-color: rgba(33, 21, 28, 0.6);
 	width: 100%;
 	position: fixed;
 }
 
 .menu li a {
-	color: #f70a8a;
+	color: #fff;
 	margin-top: 10%;
 	font-weight: 900;
 }
@@ -69,8 +69,8 @@ h6 {
 
 .button:hover {
 	color: white;
-	background-color: #fc002c;
-	border: solid 2px #fc002c;
+	background-color: #880e4f;
+	border: solid 2px #880e4f;
 }
 
 
@@ -159,7 +159,7 @@ h6 {
 /***********************boxess*************************/
 
 .contact {
-	background-color: yellow;
+	background-color: white;
 	background-attachment: fixed;
 	height: auto;
 }
@@ -296,12 +296,18 @@ i {
 
 .boxxx {
 	background-color: yellow;
-	height: 200px;
-	margin-top: 17%;
+	height: 16.67%;
+	margin-top: 5%;
 }
 
-.boxx h3 {
+.boxx h5 {
 	margin: 30% 0;
+	font-weight: 900;
+}
+
+.boxx:hover {
+	background-color: whitesmoke;
+	transition: 1s;
 }
 
 .content {
@@ -310,12 +316,37 @@ i {
 
 .boxe {
 	background-color: dodgerblue;
-	height: 200px;
-	margin-top: 17%;
+	height: 16.67%;
+	margin-top: 5%;
 }
 
 .boxex {
 	background-color: deeppink;
-	height: 200px;
-	margin-top: 17%;
+	height: 16.67%;
+	margin-top: 5%;
+}
+
+.btn {
+	width: 100%;
+	background-color: #e91e63;
+}
+
+.btn:hover {
+	background-color: #880e4f;
+	color: white;
+}
+
+.boxe2 {
+	background-color: white;
+	height: 16.67%;
+}
+
+.boxex2 {
+	background-color: yellow;
+	height: 16.67%;
+}
+
+.boxex3 {
+	background-color: purple;
+	height: 16.67%;
 }
