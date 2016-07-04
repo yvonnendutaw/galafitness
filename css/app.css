@@ -154,15 +154,17 @@ h6 {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }
-
+.overlay{
+	background-color: rgba(255, 20, 147, 0.29);
+	height: 100%;
+}
 
 /***********************boxess*************************/
 
 .contact {
 <<<<<<< HEAD
-	background-color: white;
-=======
-	background-color: deepskyblue;
+	background-color: purple;
+======
 >>>>>>> galafitness/gh-pages
 	background-attachment: fixed;
 	height: auto;
@@ -299,20 +301,24 @@ i {
 }
 
 .boxxx {
+/*	margin-top: -100%;*/
 	background-color: yellow;
 	height: 16.67%;
 	margin-top: 5%;
 }
 
+.boxxx:hover {
+
+	transition: 1s;
+	background-color: purple;
+	height: 16.67%;
+	margin-top: 5%;
+}
 .boxx h5 {
 	margin: 30% 0;
 	font-weight: 900;
 }
 
-.boxx:hover {
-	background-color: whitesmoke;
-	transition: 1s;
-}
 
 .content {
 	padding: 5%;
@@ -324,8 +330,22 @@ i {
 	margin-top: 5%;
 }
 
+.boxe:hover {
+	transition: 1s;
+	background-color: purple;
+	height: 16.67%;
+	margin-top: 5%;
+}
+
 .boxex {
 	background-color: deeppink;
+	height: 16.67%;
+	margin-top: 5%;
+}
+
+.boxex:hover {
+	transition: 1s;
+	background-color: whitesmoke;
 	height: 16.67%;
 	margin-top: 5%;
 }
@@ -344,13 +364,30 @@ i {
 	background-color: white;
 	height: 16.67%;
 }
+.boxe2:hover {
+	transition: 1s;
+	background-color: deeppink;
+	height: 16.67%;
+}
 
 .boxex2 {
 	background-color: yellow;
 	height: 16.67%;
 }
-
+.boxex2:hover {
+	transition: 1s;
+	background-color: purple;
+	height: 16.67%;
+}
 .boxex3 {
 	background-color: purple;
 	height: 16.67%;
+}
+.boxex3:hover {
+	transition: 1s;
+	background-color: whitesmoke;
+	height: 16.67%;
+}
+section#contact {
+    background-color: whitesmoke;
 }
